@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Die Naturärzte</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+<div id="bg1" data-0="background-position:0px 0px;" data-500="background-position:0px -500px;"></div>
+<div id="bg2" data-0="background-position:0px 0px;" data-500="background-position:0px -400px;"></div>
+<div id="bg3" data-0="background-position:0px 0px;" data-500="background-position:0px -300px;"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="col-sm-12 well box">
+                <h1>Die Naturärzte</h1>
+                <p class="lead">
+                    Akupunktur · TCM · Shonishin · Phytotherapie · Dorntherapie · Ernährungsberatung · Taping · Tui Na
+                    <p class="lead">
+                    Neuer Name, neues Gewand, neuer Ort. Alles andere bleibt gleich &mdash; Details finden Sie
+                    auf den bestehenden Websites von
+                    <a href="http://ji-agopuntura.ch">Julo Indemini</a> und
+                    <a href="http://klassische-akupunktur.ch">Carol Indemini-Lüthy</a>.
+                    </p>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="well box">
+                <h1>Praxis Basel</h1>
+
+                <a href="https://www.google.ch/maps/place/Weiherweg+18,+4054+Basel">
+                    <img src="http://klassische-akupunktur.ch/images/map.gif" width="250"/>
+                </a>
+                <p class="address lead">
+                    Weiherweg 18<br/>
+                    4054 Basel<br/>
+                    +41 76 589 89 99</p>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="well box">
+                <h1>Praxis Oberdorf</h1>
+
+                <a href="https://www.google.ch/maps/place/Hauptstrasse+72,+4436+Oberdorf">
+                    <img src="images/map.png" width="250"/>
+                </a>
+                <p class="address lead">
+                    Hauptstrasse 72<br/>
+                    4436 Oberdorf<br/>
+                    +41 76 589 89 99</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <p class="copyright">&copy Carol &amp; Julo Indemini-Lüthy 2015</p>
+    </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/skrollr.min.js"></script>
+
+<script type="text/javascript">
+    var s = skrollr.init({
+        edgeStrategy: 'set',
+        easing: {
+            WTF: Math.random,
+            inverted: function (p) {
+                return 1 - p;
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
