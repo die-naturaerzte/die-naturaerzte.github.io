@@ -20,53 +20,9 @@
     background-size: 400px 400px;
 }
 
-#praxis {
-    z-index: -10;
-    width: 100%;
-    min-height: 200px;
-    min-width: 200px;
-    margin-top: -500px;
-    margin-bottom: -500px;
-}
-
-#welcome {
-    position: relative;
-    display: block;
-    margin: 40px 0;
-    padding-left: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
-    color: white;
-}
-
 h1 {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
-}
-
-p {
-    font-family: Georgia, serif;
-    font-size: 16px;
-}
-
-.navbar {
-    opacity: 0.8;
-    border: 0;
-}
-
-.navbar-inner {
-    font-family: Helvetica, Arial, sans-serif;
-}
-
-.navbar .nav > li > a {
-    text-transform: uppercase;
-    padding: 20px;
-    outline: none;
-}
-
-.navbar .nav > li.active > a {
-    color: black;
-    background-color: #f8f8f8;
-    border-bottom: 3px solid grey;
 }
 
 .box {
@@ -76,18 +32,28 @@ p {
     border: 3px solid grey;
 }
 
-.box img {
-    position: absolute;
-    display: inline-block;
-    margin-bottom: 20px;
-    padding-top: 20px;
+.well {
+    background-color: white;
+    border: 3px solid grey;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.praxis {
+    overflow: hidden;
+}
+
+.map {
+    border: none;
+    padding-left: 0;
 }
 
 .address {
-    position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-left: 280px;
+    float: left;
+    border: none;
+    padding-top: 30px;
+    font-family: Georgia, serif;
+    font-size: 16px;
 }
 
 html {
@@ -96,8 +62,9 @@ html {
 }
 
 body {
+    font-family: Georgia, serif;
     margin-top: 40px;
-    margin-bottom: 60px;
+    padding-bottom: 100px;
 }
 
 .footer {
@@ -117,4 +84,3 @@ body {
     text-transform: uppercase;
     padding-top: 20px;
 }
-
